@@ -26,9 +26,9 @@ console.log(resultadoSave);
 
 (async () => {
 
-//assim
-//Produto.destroy({ where: { id: 1 }});
-//ou assim
+
+Produto.destroy({ where: { id: 1 }});
+
 //const produto = await Produto.findByPk(1);
 //produto.destroy();
 
